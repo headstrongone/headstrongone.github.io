@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar</title>
+
+    <style>
+        body {
+            background: url("background.jpg") no-repeat scroll;
+            background-size: cover;
+        }
+
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+            font-family: "Courier New", monospace;
+            font-size: 24px;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 3px solid black;
+            border-collapse: collapse;
+            background-color: palegoldenrod;
+            text-align: center;
+            padding: 15px;
+        }
+
+        caption{
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+            border-top: 3px solid black;
+            border-collapse: collapse;
+            background-color: palegoldenrod;
+            text-align: center;
+            padding: 15px;
+        }
+
+        s {
+            color: red;
+            text-decoration: line-through;
+        }
+
+        input{
+            border-color: red;
+            border-radius: 16px;
+            font-size: 25px;
+            display: inline-block;
+            float: left;
+            font-size: 25px;
+            margin-left: 50%
+        }
+
+
+        input[type=button]:active{
+            padding: 5px;
+            background-color: red;
+            color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<table class = "center">
+    <caption><strong>October, 2020</strong></caption>
+    <tr>
+        <th>Week Number</th>
+        <th>Sunday</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+    </tr>
+    <tr>
+        <td><strong><s>1</s></strong></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><s>1</s></td>
+        <td><strong><s>2</s></strong></td>
+        <td><strong><s>3</s></strong></td>
+    </tr>
+    <tr>
+        <td><strong><s>2</s></strong></td>
+        <td><s>4</s></td>
+        <td><s>5</s></td>
+        <td><s>6</s></td>
+        <td><s>7</s></td>
+        <td><s>8</s></td>
+        <td><strong><s>9</s></strong></td>
+        <td><strong><s>10</s></strong></td>
+    </tr>
+    <tr>
+        <td><strong><s>3</s></strong></td>
+        <td><s>11</s></td>
+        <td><s>12</s></td>
+        <td><s>13</s></td>
+        <td><s>14</s></td>
+        <td><s>15</s></td>
+        <td><strong><s>16</s></strong></td>
+        <td><strong><s>17</s></strong></td>
+    </tr>
+    <tr>
+        <td><strong><s>4</s></strong></td>
+        <td><s>18</s></td>
+        <td><s>19</s></td>
+        <td><s>20</s></td>
+        <td><s>21</s></td>
+        <td><s>22</s></td>
+        <td><strong><s>23</s></strong></td>
+        <td><strong><s>24</s></strong></td>
+    </tr>
+    <tr>
+        <td><strong>5</strong></td>
+        <td><s>25</s></td>
+        <td><mark>26</mark></td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td><strong>30</strong></td>
+        <td><strong>31</strong></td>
+    </tr>
+</table> <br><br>
+
+<a href="loginpage.html">
+    <input type="button" value="Back to Login">
+</a>
+
+</body>
+</html>
