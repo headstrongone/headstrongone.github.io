@@ -1,1 +1,63 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+
+    <style>
+        .login{
+            font-size: 30px;
+            color: moccasin;
+            font-family: Andale Mono, monospace;
+            display: table;
+            margin: auto;
+            width: 470px;
+        }
+
+        input {
+            border-color: red;
+            border-radius: 16px;
+            font-size: 25px;
+            width: 300px;
+            display: inline-block;
+            float: right;
+            outline: none;
+        }
+
+        input:focus{
+            border-width: 4px;
+        }
+
+        input[type=submit]:active{
+            padding: 5px;
+            background-color: red;
+            color: black;
+        }
+
+        body{
+            background: url("background.jpg") no-repeat scroll;
+            background-size:100% auto;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="mainpage.html" method="get" class="login" autocomplete="on">
+        <div class="login">
+            <label for="e-mail">E-Mail</label>
+            <input type="email" id="e-mail" name="e-mail" autocomplete="email" required><br><br>
+        </div>
+
+        <div class="login">
+            <label for="passwordInput">Password</label>
+            <input type="password" id="passwordInput" name="passwordInput" autocomplete="new-password" required><br><br>
+        </div>
+
+        <div class="login">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+
+</body>
+</html>
